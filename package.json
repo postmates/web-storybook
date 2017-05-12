@@ -1,0 +1,29 @@
+{
+  "name": "web-storybook",
+  "version": "1.0.0",
+  "description": "A way for anyone to interact with our standard components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postmates/web-storybook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/postmates/web-storybook/issues"
+  },
+  "homepage": "https://github.com/postmates/web-storybook#readme",
+  "dependencies": {
+    "getstorybook": "^1.7.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "web-foundation": "^1.30.1"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.35.3"
+  }
+}
